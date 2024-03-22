@@ -1,4 +1,4 @@
-# leetcode-discord-bot
+[# leetcode-discord-bot
 
 To install dependencies:
 
@@ -13,3 +13,4 @@ bun run index.ts
 ```
 
 This project was created using `bun init` in bun v1.0.31. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+](https://discord.com/developers/docs/interactions/receiving-and-responding)https://discord.com/developers/docs/interactions/receiving-and-responding
