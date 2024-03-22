@@ -1,18 +1,20 @@
 {
-  "private": true,
+  "name": "leetcode-discord-bot",
+  "module": "index.ts",
+  "type": "module",
   "scripts": {
-    "build": "nitro build",
-    "dev": "nitro dev",
-    "prepare": "nitro prepare",
-    "preview": "node .output/server/index.mjs"
+    "dev": "bun run index.ts"
   },
   "devDependencies": {
-    "nitropack": "latest"
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@hapi/hapi": "^21.3.7",
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.5",
     "leetcode-query": "^1.2.3"
-  },
-  "license": "GPL-3.0-or-later"
+  }
 }
